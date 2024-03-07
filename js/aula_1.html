@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1> Primeiro cabeçalho. </h1>
+    <h2> Segundo cabeçalho.</h2>
+    <h3> terceiro cabeçalho.</h3>
+    <p>Primeiro paragrafo</p>
+    <img src="img/img.jpeg" alt="Primera imagem" style="width: 100px; height: 100px;">
+    <a href="https://ww2.uft.edu.br//">uft</a>
+
+<li>
+    Não vi 
+</li>
+
+
+    <ol>
+     <table>
+           <caption> Descrição da tabela</caption>
+           <thead>
+            <tr>
+                <th>Coluna 1 </th>
+                <th>Coluna 2</th>
+            </tr>
+           </thead> 
+           <tbody>
+            <tr>
+                <td> Linha 1 - Coluna 1 </td>
+                <td>Linha 1 - Coluna 2</td>
+            </tr>
+           </tbody>
+           <tbody>
+            <tr>
+                <td> Linha 2 - Coluna 1 </td>
+                <td>Linha 2 - Coluna 2</td>
+            </tr>
+           </tbody>
+           <tbody>
+            <tr>
+                <td> Linha 3 - Coluna 1 </td>
+                <td>Linha 3 - Coluna 2</td>
+            </tr>
+           </tbody>
+
+     </table>
+    </ol> 
+
+    <form action="/cadastro/" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha"><br><br>
+
+        
+      <br>
+        <input type="radio" id="opcao1" name="opcao" value="opcao1">
+        <label for="opcao1">marculino</label><br>
+
+        <input type="radio" id="opcao2" name="opcao" value="opcao2">
+        <label for="opcao2">feminino</label><br>
+
+     
+       <br>
+       <input type="checkbox" id="checkbox1" name="checkbox1" value="opcao1">
+        <label for="checkbox1">Carro</label><br>
+
+        <input type="checkbox" id="checkbox2" name="checkbox2" value="opcao2">
+        <label for="checkbox2">Moto</label><br>
+
+       
+        <br>
+        <label for="cursos">Escolha um curso:</label><br>
+        <select id="cursos" name="cursos">
+            <option value="engenharia">Engenharia</option>
+            <option value="ciencias_computacao">Ciências da Computação</option>
+            <option value="administração">Administração</option>
+            <option value="medicina">Medicina</option>
+        </select><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea><br><br>
+       
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" min="0" max="150"><br><br>
+        
+
+        <label for="fruta">Escolha uma fruta:</label><br>
+        <input type="text" id="fruta" name="fruta" autocomplete="on" list="frutas"><br><br>
+        <datalist id="frutas">
+            <option value="Maçã">
+            <option value="Banana">
+            <option value="Laranja">
+            <option value="Morango">
+            <option value="Pera">
+            <option value="Uva">
+        </datalist>
+      
+        
+        <input type="hidden" name="dados_ocultos" value="informacao_oculta">
+        <input type="submit" value="Enviar">
+        
+    </form>
+    <div> 
+        Elementos 
+        de Bloco
+
+    </div>
+    <span>
+        Elmento de linha
+    </span>
+</body>
+</html>
